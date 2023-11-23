@@ -1,0 +1,136 @@
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px 50px;
+    background-color: #EFF7FB;
+    min-height: 50%;
+    width: 100%;
+}
+
+.grid1{
+    min-width: 40%;
+    min-height: auto;
+}
+
+.grid2{
+    min-width: 40%;
+    min-height: auto;
+}
+
+.grid2 div{
+    margin-bottom: 40px;
+}
+
+.grid2 ul{
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid2 li{
+    display: inline;
+}
+
+.grid2 a{
+    text-decoration: none;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 25px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Quicksand, sans-serif;
+    text-transform: capitalize;
+    color: rgb(112, 112, 112);
+}
+
+.grid2 a:hover{
+    color: rgb(64, 89, 255);
+}
+
+.grid2 p{
+    padding: 25px;
+    text-align: center;
+    font-family:Quicksand, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(112, 112, 112);
+}
+
+.grid3{
+    min-height: auto;
+    min-width: 40%;
+    text-align: center;
+}
+
+#facebook{
+    color: rgb(11, 11, 38);
+    font-size: 20px; 
+    border: 1px solid; 
+    border-radius: 20px;
+    padding: 6px;
+    margin-right: 10px;
+}
+
+#facebook:hover{
+    color: rgb(25, 25, 255);
+}
+
+@media screen and (max-width: 425px){
+    footer{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 50px 50px;
+        background-color: #EFF7FB;
+        min-height: 50%;
+        width: 100%;
+    }
+
+    .grid1{
+        min-width: 40%;
+        min-height: auto;
+        padding-left: 30%;
+    }
+    
+    .grid2{
+        min-width: 40%;
+        min-height: auto;
+    }
+    
+    .grid2 div{
+        margin-bottom: 40px;
+    }
+    
+    .grid2 ul{
+        list-style-type: none;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .grid2 li{
+        display: inline;
+    }
+
+    .grid2 ul{
+        list-style-type: none;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .grid2 li{
+        display: inline;
+    }
+    
+    .grid2 a{
+        text-decoration: none;
+        margin-right:2;
+        margin-left: 2%;
+        padding: 25px;
+        padding-left: 20px;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: Quicksand, sans-serif;
+        text-transform: capitalize;
+        color: rgb(112, 112, 112);
+    }
+}

@@ -1,0 +1,94 @@
+.accordion{
+    min-height: 300px;
+    width: 100%;
+}
+
+.accordion .contentBx{
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    border: solid 1px #C2C3C7;
+}
+
+.accordion .contentBx .label{
+    position: relative;
+    padding: 10px;
+    color: #07275c;
+    cursor: pointer;
+    font-family: Quicksand, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.accordion .contentBx .label::before{
+    content: '+';
+    transform: translateY(-50%);
+    padding-right: 15px;
+    font-size: large;
+}
+
+.accordion .contentBx.active .label::before{
+    content: '-';
+}
+
+.accordion .contentBx .content{
+    position: relative;
+    padding: 8px;
+    padding-top: 10px;
+    background-color: white;
+    height: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    transition: 0.5s;
+}
+
+.accordion .contentBx.active .content{
+    height: 150px;
+    padding: 10px;
+}
+
+.accordion h3{
+    font-family: Questrial, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #1c0d5a;
+    margin: 10px 20px;
+}
+
+.accordion p{
+    font-family: Quicksand, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 31px;
+    color: #636363;
+}
+
+.accordion button{
+    width: 30%;
+    height: 50px;
+    border: solid 0px;
+    border-radius: 8px;
+    background-color:#0e2eff ;
+    font-family: Quicksand, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 20px;
+    color: white;
+}
+
+.accordion button:hover{
+background-color: color-mix(
+        in srgb,
+        #24afff,
+        #d3e9ff
+    );
+}
+
+@media screen and (max-width: 1024px){
+    .accordion button{
+        width: 70%;
+        height: 70px;
+    }
+}

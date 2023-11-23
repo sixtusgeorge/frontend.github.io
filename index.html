@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/nav.cont.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="css/accordion.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>index</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <img src="img/cover.png" height="70px" width="200px" alt="LOGO">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="myproject.html">My Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="myproject.html"><button>Check Recent Projects</button></a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <div>
+            <article class="article-right">
+
+                <div class="container">
+
+                    <!-- The First Div Bout The Authur -->
+                    <div class="div1">
+                        <div class="sub-div1">
+                            <div class="authur1">
+
+                                <h2>Let Me Help You Learn <br> Freelancing And <br> Its Market place.</h2> <br> <br>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,<br>
+                                    luctus nec ullamcorper mattis, pulvinar dapibus leo.</p> <br>
+
+                                <a href="myproject.html"><button>Veiw Courses</button></a>
+                            </div>
+                            <div class="authur2">
+
+                                <div class="CEO">
+                                    <i class="fas fa-check-circle" style=" font-size: 25px; padding: 10px;
+                        color: rgb(21, 68, 255);"></i>
+                                    <h3>Founder and CEO</h3>
+                                    <p>Lotachukwu Okeke</p>
+                                </div>
+
+
+                                <img src="img/andrew-power-y9L5-wmifaYunsplash.png" width="600px" height="800px"
+                                    alt="Authur">
+
+                                <div class="beginners">
+                                    <i class="fas fa-check-circle" style=" font-size: 25px; padding: 5px;
+                        color: rgb(21, 68, 255); float: right;"></i> <br>
+                                    <h3>Beginners</h3>
+                                    <p>ONLINE TUTOR</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- This is the second div container-->
+                    <div class="div2">
+                        <div class="sub-div2">
+
+                            <div class="box1">
+                                <img src="img/you-x-ventures-Oalh2MojUuk-unsplash.jpg" width="600px" height="400px"
+                                    alt="Post Handle">
+                                <br>
+
+                                <a href="myproject.html"><button>
+                                        <i class="fas fa-play" style="padding-right: 5px;"></i>
+                                        Veiw Courses
+                                    </button></a>
+                            </div>
+
+                            <div class="box2">
+                                <h3>This is my post handle</h3> <br> <br>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <br>
+                                    praesentium voluptatum deleniti atque corrupti quos <br>
+                                    dolores et quas molestias excepturi.</p> <br> <br>
+
+                                <p>Sint occaecati cupiditate non provident, similique sunt in culpa qui officia <br>
+                                    deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- The third div container -->
+                    <div class="div3">
+                        <div class="sub-div3">
+
+                            <!-- The accordion code -->
+                            <div class="accordion">
+
+                                <h3>Insights to elevate your accademic <br> confidence and unlock your potential.</h3>
+                                <br>
+
+                                <div class="contentBx">
+                                    <div class="label">The purpose of life coaching?</div>
+
+                                    <div class="content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,<br>
+                                            luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                    </div>
+                                </div>
+
+                                <div class="contentBx">
+                                    <div class="label">Past, present & future exercise.</div>
+
+                                    <div class="content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,<br>
+                                            luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                    </div>
+                                </div>
+
+                                <div class="contentBx">
+                                    <div class="label">How do you perceive value?</div>
+
+                                    <div class="content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,<br>
+                                            luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                    </div> <br>
+                                </div>
+                                <a href="../contact/contact.html"><button>Ask a Question</button></a>
+
+                                <script>
+                                    const accordion = document.getElementsByClassName('contentBx');
+                                    for (i = 0; i < accordion.length; ++i) {
+                                        accordion[i].addEventListener('click', function () {
+                                            this.classList.toggle('active');
+                                        });
+                                    };
+                                </script>
+                            </div>
+
+                            <!-- The gallery codes -->
+                            <div class="gallery">
+                                <img src="img/lecture1.jpg" width="300px" height="200px" alt="Lectures">
+                                <img src="img/lecture2.jpg" width="300px" height="200px" alt="Tutorial">
+                                <img src="img/lecture3.jpg" width="300px" height="200px" alt="Seminar"
+                                    style="margin-top: 20px;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4th div container-->
+                    <div style="text-align: center;">
+                        <h3
+                            style="font-family: Questrial, sans-serif; font-size: 30px; font-weight: 600; color: #1c0d5a;">
+                            Find Out Where You Need to Start</h3> <br>
+                        <p
+                            style="font-family: Quicksand, sans-serif; font-size: 17px; font-weight: 500; color: #636363;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus <br>
+                            nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    </div>
+
+                    <div class="div4">
+                        <div class="sub-div4">
+
+                            <div class="icon-box1">
+                                <i class="fas fa-home" style="font-size: 31px; color: #0027ff;"></i>
+                                <h3>Budgeting</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br>
+                                    luctus nec ullamcorper mattis, <br> pulvinar dapibus leo.</p>
+
+                                <a href="myproject.html"><button>Show Me</button></a>
+                            </div>
+
+                            <div class="icon-box2">
+                                <i class="fas fa-piggy-bank" style="font-size: 31px; color: #0027ff;"></i>
+                                <h3>Saving</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br>
+                                    luctus nec ullamcorper mattis, <br> pulvinar dapibus leo.</p>
+
+                                <a href="myproject.html"><button>Show Me</button></a>
+                            </div>
+
+                            <div class="icon-box3">
+                                <i class="fa fa-percent" style="font-size: 31px; color: #0027ff;"></i>
+                                <h3>Enquires</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br>
+                                    luctus nec ullamcorper mattis, <br> pulvinar dapibus leo.</p>
+
+                                <a href="myproject.html"><button>Show Me</button></a>
+                            </div>
+                        </div>
+
+                        <!-- Combination -->
+                        <div class="sub-sub-div4">
+
+                            <div class="icon-box1">
+                                <i class="fas fa-coins" style="font-size: 31px; color: #0027ff;"></i>
+                                <h3>Insurance</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br>
+                                    luctus nec ullamcorper mattis, <br> pulvinar dapibus leo.</p>
+
+                                <a href="myproject.html"><button>Show Me</button></a>
+                            </div>
+
+                            <div class="icon-box2">
+                                <i class="fas fa-tags" style="font-size: 31px; color: #0027ff;"></i>
+                                <h3>Books Selling</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br>
+                                    luctus nec ullamcorper mattis, <br> pulvinar dapibus leo.</p>
+
+                                <a href="myproject.html"><button>Show Me</button></a>
+                            </div>
+
+                            <div class="icon-box3">
+                                <i class="fa fa-percent" style="font-size: 31px; color: #0027ff;"></i>
+                                <h3>Books Buying</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br>
+                                    luctus nec ullamcorper mattis, <br> pulvinar dapibus leo.</p>
+
+                                <a href="myproject.html"><button>Show Me</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5th div container -->
+                    <div class="div5">
+
+                        <div style="text-align: center; margin-top: 50px;">
+                            <h3
+                                style="font-family: Questrial, sans-serif; font-size: 30px; font-weight: 600; color: #1c0d5a;">
+                                My Specialities</h3> <br>
+                            <p
+                                style="font-family: Quicksand, sans-serif; font-size: 17px; font-weight: 500; color: #636363;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus <br>
+                                nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        </div>
+
+                        <div class="sub-div5">
+
+                            <div class="image-box1">
+                                <img src="img/house and pool.jpg" alt="Edu Building"> <br>
+                                <h3>Educating</h3>
+                                <p>Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                            </div>
+
+                            <div class="image-box2">
+                                <img src="img/mobile forex.jpg" alt="Edu Building"> <br>
+                                <h3>Online Tutoring & Mentorship</h3>
+                                <p>Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                            </div>
+
+                            <div class="image-box3">
+                                <img src="img/forex market.jpg" alt="Edu Building"> <br>
+                                <h3>Freelancing & Freelance Market Place</h3>
+                                <p>Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6th div container -->
+
+                    <div class="div6">
+
+                        <div style="text-align: center; margin-top: 50px;">
+                            <h3
+                                style="font-family: Questrial, sans-serif; font-size: 30px; font-weight: 600; color: #1c0d5a;">
+                                My Specialities</h3> <br>
+                            <p
+                                style="font-family: Quicksand, sans-serif; font-size: 17px; font-weight: 500; color: #636363;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus <br>
+                                nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        </div>
+
+                        <div class="sub-div6">
+
+                            <div class="testimony1">
+                                <div class="i">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                    fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non proident,
+                                    sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                <img src="img/lota.jpeg" alt="Edu Building">
+                                <p style="line-height: 30px;">Lotachukwu Okeke <br> Cheif Designer/Developer</p>
+                            </div>
+
+                            <div class="testimony1">
+                                <div class="i">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                    fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non proident,
+                                    sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                <img src="img/madus.jpg" alt="Edu Building">
+                                <p style="line-height: 30px;">Madus Brown <br> Senior Developer</p>
+                            </div>
+
+                            <div class="testimony1">
+                                <div class="i">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                    fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non proident,
+                                    sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                <img src="img/kc.jpg" alt="Edu Building">
+                                <p style="line-height: 30px;">Kenechukwu Uroko <br> Senior Developer</p>
+                            </div>
+
+                            <div class="testimony1">
+                                <div class="i">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                    fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non proident,
+                                    sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                <img src="img/fatima.jpg" alt="Edu Building">
+                                <p style="line-height: 30px;">Fatima <br> UI/UX Developer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 7th div container -->
+                    <div class="div7">
+                        <div class="sub-div7">
+                            <h3>Life Insurance You'll Love. <br>
+                                Take Care of What Matters Most!</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br>
+                                luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                            <a href="myproject.html"><button>Show Me</button></a>
+                        </div>
+                    </div>
+
+                    <!-- container ending for article -->
+                </div>
+            </article>
+        </div>
+
+        <aside>
+            <img src="img/lotusg.jpg" alt="CEO"> <br> <br>
+            <h2>Okeke Lotachukwu <br>
+                <h1>CEO Lotusg-TechWorld</h1>
+            </h2> <br>
+
+            <div class="adv">
+                <h1> Advertise Here </h1>
+            </div>
+
+            <div class="adv">
+                <h1> Advertise Here </h1>
+            </div>
+
+            <div class="adv">
+                <h1> Advertise Here </h1>
+            </div>
+
+            <div class="adv">
+                <h1> Advertise Here </h1>
+            </div>
+
+            <div class="adv">
+                <h1> Advertise Here </h1>
+            </div>
+
+
+        </aside>
+        <!-- container end for both article and aside -->
+    </div>
+
+    <footer>
+        <div class="grid1">
+            <h2>LOTA</h2> <br>
+            <p>(+234)-8160340501 <br>
+                lotusg07@gmail.com</p>
+        </div>
+
+        <div class="grid2">
+            <div>
+                <ul>
+                    <li><a href="" target="_blank">FAQ</a></li>
+                    <li><a href="" target="_blank">Privacy</a></li>
+                    <li><a href="" target="_blank">Terms of service</a></li>
+                </ul>
+            </div>
+            <p>© 2023 Lota website</p>
+        </div>
+
+        <div class="grid3">
+            <i class="fab fa-facebook" id="facebook"><a href="" target="_blank"></a></i>
+            <i class="fab fa-twitter" id="facebook"></i>
+            <i class="fab fa-linkedin" id="facebook"></i>
+        </div>
+
+    </footer>
+    </div>
+</body>
+
+</html>

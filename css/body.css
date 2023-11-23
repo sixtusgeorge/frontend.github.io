@@ -1,0 +1,1322 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* this is the container holding the whole cintainers inside the article */
+
+.article-right{
+    width: 80%;
+    min-height: 800px;
+    float: right;
+    box-sizing: border-box;
+}
+
+/* this section styles the first div of the page */
+.div1{
+        background-color: color-mix(
+        in srgb,
+        #f0f7fb,
+        #FCFDFE
+    );
+    width: 100%;
+    min-height: 300px;
+}
+
+.sub-div1{
+    display: grid;
+    grid-template-columns: auto auto;
+    min-height: 50%;
+    width: 100%;
+}
+
+.authur1{
+    min-height: 50%;
+    width: 100%;
+    padding: 50px;
+}
+
+.authur1 h2{
+    color: #1c0d5a;
+    font-family: Questrial, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-top: 100px;
+}
+
+.authur1 p{
+    color: #636363;
+    font-family: Quicksand, sans-serif;
+    font-size: 17px;
+    font-weight: 500px;
+    line-height: 31px;
+}
+
+.authur1 button{
+        width: 30%;
+        height: 50px;
+        border: solid 1px;
+        border-radius: 8px;
+        background-color:#0e2eff ;
+        font-family: Quicksand, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 5px;
+        color: color-mix(
+            in srgb,
+            #f0f7fb,
+            #FCFDFE
+        );
+}
+
+.authur1 button:hover{
+    background-color: #76defe;
+}
+
+.authur2{
+    min-height: 50%;
+    width: 100%;
+    position: relative;
+}
+
+.CEO{
+    width: 50%;
+    height: 125px;
+    background-color:white;
+    border-radius: 10px;
+    position: absolute;
+    top: 45%;
+    left: 0;
+}
+
+.CEO h3{
+    font-family: Questrial, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #1c0d5a;
+    padding-left: 10px;
+}
+
+.CEO p{
+    font-family: Quicksand, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #636363;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.beginners{
+    width: 50%;
+    height: 125px;
+    background-color:white;
+    border-radius: 10px;
+    position: absolute;
+    top: 80%;
+    right: 10px;
+}
+
+.beginners h3{
+    text-align: right;
+    font-family: Questrial, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #1c0d5a;
+    padding-right: 8px;
+}
+
+.beginners p{
+    text-align: right;
+    font-family: Quicksand, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 31px;
+    color: #636363;
+    padding-right: 8px;
+}
+
+/* The styling for the second div */
+
+.div2{
+width: 100%;
+min-height: 300px;
+margin-top: 100px;
+padding: 10px;
+}
+
+.sub-div2{
+display: grid;
+grid-template-columns: auto auto;
+min-height: 50%;
+width: 100%;
+}
+
+.box1{
+min-height: 50%;
+width: 100%;
+position: relative;
+}
+
+.box1 button{
+        width: 30%;
+        height: 50px;
+        border: solid 0px;
+        border-radius: 8px;
+        color:#0e2eff ;
+        font-family: Quicksand, sans-serif;
+        font-size: 18px;
+        padding: 5px;
+        background-color: rgb(220, 206, 206);
+        margin-left: 30%;
+        position: absolute;
+        bottom: 0;
+        top: 95%;
+}
+
+.box1 button:hover{
+    background-color: #0e2eff;
+    color: white;
+}
+
+.box2{
+    min-height: 50%;
+    width: 100%;
+    padding-top: 60px;
+    }
+
+    .box2 h3{
+        font-family: Questrial, sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #1c0d5a;
+    }
+
+    .box2 p{
+        font-family: Quicksand, sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 31px;
+        color: #636363;
+    }
+
+    /* Div 3 styling */
+
+    .div3{
+        width: 100%;
+        min-height: 600px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 20px 20px;
+        background-color: color-mix(
+            in srgb,
+            #f0f7fb,
+            #FCFDFE
+        );
+    }
+
+    .sub-div3{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;  
+        width: 100%;
+        padding-top: 55px;
+        }
+
+    
+
+    .gallery{
+        min-height: 300px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 8px;
+    }
+
+    /* Div 4 Styling */
+
+    .div4{
+        width: 100%;
+        min-height: 600px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        padding: 20px 20px;
+    }
+
+    .sub-div4{
+        display: grid;
+        grid-template-columns: auto auto auto; 
+        width: 100%;
+        border: solid 1px #D6D7E0;
+        border-radius: 10px 10px 0px 0px;
+        }
+
+        .icon-box1{
+            min-height: 300px;
+            width: 100%;
+            padding: 15px;
+            border-right: solid 1px #D6D7E0;
+        }
+
+        .icon-box2{
+            min-height: 300px;
+            width: 100%;
+            padding: 15px;
+            border-right: solid 1px #D6D7E0;
+        }
+
+        .icon-box3{
+            min-height: 300px;
+            width: 100%;
+            padding: 15px;
+        }
+
+        .div4 h3{
+            font-family: Questrial, sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 34px;
+            color: #1c0d5a;
+        }
+
+        .div4 p{
+            font-family: Quicksand, sans-serif;
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 31px;
+            color: #636363;
+        }
+
+        /* Combination */
+
+        .sub-sub-div4{
+            display: grid;
+            grid-template-columns: auto auto auto; 
+            width: 100%;
+            border: solid 1px #D6D7E0;
+            border-radius: 0px 0px 10px 10px;
+            }
+
+        .div4 button{
+            width: 30%;
+            height: 50px;
+            border: solid 0px;
+            border-radius: 8px;
+            color:#0e2eff ;
+            font-family: Quicksand, sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 5px;
+            background-color: rgb(186, 199, 207);
+            margin-left: 30%;
+        }
+
+
+    /* button with light orange hover */
+     .div4 button:hover{
+        background-color: #0e2eff;
+        color: white;
+    }
+    
+   
+        /* 5th div container styling */
+        .div5{
+            width: 100%;
+            min-height: 650px;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            padding: 20px 20px;
+            background-color: #F6FAFD;
+        }
+    
+        .sub-div5{
+            display: grid;
+            grid-template-columns: auto auto auto; 
+            gap: 20px;
+            width: 100%;
+            padding-bottom: 20px;
+            }
+    
+            .image-box1{
+                min-height: 300px;
+                width: 100%;
+                padding: 15px;
+                background-color: white;
+                border-radius: 10px;
+            }
+    
+            .image-box2{
+                min-height: 300px;
+                width: 100%;
+                padding: 15px;
+                background-color: white;
+                border-radius: 10px;
+            }
+    
+            .image-box3{
+                min-height: 300px;
+                width: 100%;
+                padding: 15px;
+                background-color: white;
+                border-radius: 10px;
+            }
+
+            .div5 img{
+                width: 100px;
+                height: 100px;
+                margin-left: 37%;
+                margin-right: 25%;
+                border-radius: 100px;
+            }
+    
+            .div5 h3{
+                font-family: Questrial, sans-serif;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 34px;
+                color: #1c0d5a;
+                text-align: center;
+                padding: 10px;
+            }
+    
+            .div5 p{
+                font-family: Quicksand, sans-serif;
+                font-size: 17px;
+                font-weight: 500;
+                line-height: 31px;
+                color: #636363;
+                text-align: center;
+                padding: 10px;
+            }
+
+            /* Div 6 styling */
+            .div6{
+                width: 100%;
+                min-height: 650px;
+                margin-top: 100px;
+                margin-bottom: 100px;
+                padding: 20px 20px;
+                background-color: white;
+            }
+
+            .sub-div6{
+                display: grid;
+                grid-template-columns: auto auto; 
+                gap: 30px;
+                width: 100%;
+                padding-bottom: 20px;
+                }
+        
+                .testimony1{
+                    min-height: 400px;
+                    width: 100%;
+                    padding: 15px;
+                    border-radius: 10px;
+                    border: solid 1px #D5D5E7;
+                }
+        
+                .image-box2{
+                    min-height: 300px;
+                    width: 100%;
+                    padding: 15px;
+                    background-color: white;
+                    border-radius: 10px;
+                }
+        
+                .image-box3{
+                    min-height: 300px;
+                    width: 100%;
+                    padding: 15px;
+                    background-color: white;
+                    border-radius: 10px;
+                }
+    
+                .div5 img{
+                    width: 100px;
+                    height: 100px;
+                    margin-left: 37%;
+                    margin-right: 25%;
+                    border-radius: 100px;
+                }
+        
+                .div5 h3{
+                    font-family: Questrial, sans-serif;
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 34px;
+                    color: #1c0d5a;
+                    text-align: center;
+                    padding: 10px;
+                }
+        
+                .div6 p{
+                    font-family: Quicksand, sans-serif;
+                    font-size: 22px;
+                    font-weight: 500;
+                    line-height: 40px;
+                    color: #636363;
+                    text-align: cente;
+                    padding: 10px;
+                }
+
+                .div6 img{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 100px;
+                    float: left;
+                    margin-right: 15px;
+
+                }
+
+                .i{
+                    color: #F0AD4E;
+                    letter-spacing: 5px;
+                    margin-left: 38%;
+                }
+
+                /* 7th div styling */
+
+                .div7{
+                    width: 100%;
+                    min-height: 300px;
+                    margin-top: 100px;
+                    padding: 20px 20px;
+                    background-color: #EFF7FB;
+                }
+    
+                .sub-div7{
+                    width: 100%;
+                    padding-bottom: 20px;
+                    margin-top: 20px;
+                    }
+
+                    .div7 h3{
+                        font-family: Questrial, sans-serif;
+                        font-size: 30px;
+                        font-weight: 600;
+                        line-height: 30px;
+                        color: #1c0d5a;
+                        text-align: center;
+                        padding: 10px;
+                    }
+            
+                    .div7 p{
+                        font-family: Quicksand, sans-serif;
+                        font-size: 17px;
+                        font-weight: 500;
+                        line-height: 31px;
+                        color: #636363;
+                        text-align: center;
+                        padding: 10px;
+                    }
+
+                    .div7 button{
+                        width: 15%;
+                        height: 50px;
+                        border: solid 0px;
+                        border-radius: 8px;
+                        background-color:#0e2eff ;
+                        font-family: Quicksand, sans-serif;
+                        font-size: 18px;
+                        padding: 5px;
+                        color: white;
+                        margin-left: 42%;
+                    }
+            
+            
+                /* button with light orange hover */
+                 .div7 button:hover{
+                    background-color: #76defe;
+                    color: white;
+                }
+
+                /* Tablet Responsive first div */
+                @media screen and (max-width: 1024px) {
+                    .article-right{
+                        width: 80%;
+                        min-height: 800px;
+                        float: right;
+                        box-sizing: border-box;
+                    }
+
+                    .sub-div1{
+                        display: grid;
+                        grid-template-columns: auto auto;
+                        gap: 20px   ;
+                        min-height: 50%;
+                        width: 80%;
+                    }
+                    
+                    .authur1{
+                        min-height: 50%;
+                        width: 50%;
+                        padding: 10px;
+                    }
+
+                    .authur1 h2{
+                        font-size: 40px;
+                        font-weight: 600;
+                        line-height: 40px;
+                        margin-top: 100px;
+                    }
+                    
+                    .authur1 p{
+                        color: #636363;
+                        font-family: Quicksand, sans-serif;
+                        font-size: 20px;
+                        font-weight: 500px;
+                        line-height: 31px;
+                    }
+
+                    .authur2{
+                        min-height: 50%;
+                        width: 40%;
+                        position: relative;
+                    }
+
+                   .authur2 img{
+                    width: 500px;
+                    height: 700px;
+                   }
+                   
+                   .CEO{
+                    width: 140%;
+                    height: 130px;
+                    position: absolute;
+                    top: 35%;
+                    left: 100%;
+                }
+                   .CEO h3{
+                    font-size: 30px;
+                    font-weight: 600;
+                    line-height: 42px;
+                    padding-left: 10px;
+                }
+                
+                .CEO p{
+                    font-family: Quicksand, sans-serif;
+                    font-size: 25px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    color: #636363;
+                    padding-left: 10px;
+                    padding-bottom: 10px;
+                }
+                
+                .beginners{
+                    width: 140%;
+                    height: 130px;
+                    position: absolute;
+                    top: 55%;
+                    right: 0;
+                }
+                
+                .beginners h3{
+                    text-align: right;
+                    font-family: Questrial, sans-serif;
+                    font-size: 30px;
+                    font-weight: 600;
+                    line-height: 42px;
+                    color: #1c0d5a;
+                    padding-right: 8px;
+                }
+                
+                .beginners p{
+                    text-align: right;
+                    font-family: Quicksand, sans-serif;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 31px;
+                    color: #636363;
+                    padding-right: 8px;
+                }
+
+                   .authur1 button{
+                    width: 200px;
+                    height: 70px;
+                }
+
+                /* Responsive for the second div */
+
+                .div2{
+                    width: 100%;
+                    min-height: 300px;
+                    margin-top: 100px;
+                    padding: 10px;
+                    }
+                    
+                    .sub-div2{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    gap: 20px;
+                    min-height: 50%;
+                    width: 100%;
+                    }
+
+                    .sub-div2 img{
+                        width: 400px;
+                        height: 600px;
+                    }
+                    
+                    .box1{
+                    min-height: 50%;
+                    width: 50%;
+                    position: relative;
+                    }
+                    
+                    .box1 button{
+                            width: 90%;
+                            height: 70px;
+                            border: solid 0px;
+                            border-radius: 8px;
+                            color:#0e2eff ;
+                            font-family: Quicksand, sans-serif;
+                            font-size: 18px;
+                            padding: 5px;
+                            background-color: rgb(220, 206, 206);
+                            margin-left: 50%;
+                            position: absolute;
+                            bottom: 0;
+                            top: 95%;
+                    }
+                    
+                    .box1 button:hover{
+                        background-color: #0e2eff;
+                        color: white;
+                    }
+                    
+                    .box2{
+                        min-height: 50%;
+                        width: 100%;
+                        padding-top: 60px;
+                        }
+                    
+                        .box2 h3{
+                            font-family: Questrial, sans-serif;
+                            font-size: 30px;
+                            font-weight: 600;
+                            line-height: 30px;
+                            color: #1c0d5a;
+                        }
+                    
+                        .box2 p{
+                            font-family: Quicksand, sans-serif;
+                            font-size: 17px;
+                            font-weight: 500;
+                            line-height: 31px;
+                            color: #636363;
+                        }
+
+                        /* Responsive for the third div */
+
+                        .div3{
+                            width: 100%;
+                            min-height: 600px;
+                            margin-top: 100px;
+                            margin-bottom: 100px;
+                            padding: 10px 10px;
+                            background-color: color-mix(
+                                in srgb,
+                                #f0f7fb,
+                                #FCFDFE
+                            );
+                        }
+                    
+                        .sub-div3{
+                            display: grid;
+                            grid-template-columns: auto auto;
+                            gap: 20px;  
+                            width: 100%;
+                            padding-top: 55px;
+                            }
+                    
+                        
+                    
+                        .gallery{
+                            min-height: 300px;
+                            width: 100%;
+                            display: grid;
+                            grid-template-columns: auto auto;
+                            gap: 8px;
+                        }
+
+                        .div3 img{
+                            height: 200px;
+                            width: 200px;
+                        }
+
+                        /* Responsiveness for the fouth div */
+
+
+                        .sub-div4{
+                            display: grid;
+                            grid-template-columns: auto auto auto; 
+                            width: 100%;
+                            border: solid 1px #D6D7E0;
+                            border-radius: 10px 10px 0px 0px;
+                            }
+                    
+                            .icon-box1{
+                                min-height: 300px;
+                                width: 100%;
+                                padding: 15px;
+                                border-right: solid 1px #D6D7E0;
+                            }
+                    
+                            .icon-box2{
+                                min-height: 300px;
+                                width: 100%;
+                                padding: 15px;
+                                border-right: solid 1px #D6D7E0;
+                            }
+                    
+                            .icon-box3{
+                                min-height: 300px;
+                                width: 100%;
+                                padding: 15px;
+                            }
+                    
+                            .div4 h3{
+                                font-family: Questrial, sans-serif;
+                                font-size: 24px;
+                                font-weight: 600;
+                                line-height: 34px;
+                                color: #1c0d5a;
+                            }
+                    
+                            .div4 p{
+                                font-family: Quicksand, sans-serif;
+                                font-size: 20px;
+                                font-weight: 500;
+                                line-height: 31px;
+                                color: #636363;
+                            }
+                    
+                            /* Combination */
+                    
+                            .sub-sub-div4{
+                                display: grid;
+                                grid-template-columns: auto auto auto; 
+                                width: 100%;
+                                border: solid 1px #D6D7E0;
+                                border-radius: 0px 0px 10px 10px;
+                                }
+                    
+                            .div4 button{
+                                width: 70%;
+                                height: 50px;
+                                border: solid 0px;
+                                border-radius: 8px;
+                                color:#0e2eff ;
+                                font-family: Quicksand, sans-serif;
+                                font-size: 18px;
+                                font-weight: 500;
+                                padding: 5px;
+                                background-color: rgb(186, 199, 207);
+                                margin-left: 15%;
+                            }
+                    
+                    
+                        /* button with light orange hover */
+                         .div4 button:hover{
+                            background-color: #0e2eff;
+                            color: white;
+                        }
+
+                        /* Tablet REsponsiveness for the fifth div */
+
+                        .div5{
+                            width: 100%;
+                            min-height: 650px;
+                            margin-top: 50px;
+                            margin-bottom: 100px;
+                            padding: 20px 20px;
+                            background-color: #F6FAFD;
+                        }
+                    
+                        .sub-div5{
+                            display: grid;
+                            grid-template-columns: auto auto auto; 
+                            gap: 20px;
+                            width: 100%;
+                            padding-bottom: 20px;
+                            }
+                    
+                            .image-box1{
+                                min-height: 300px;
+                                width: 100%;
+                                padding: 15px;
+                                background-color: white;
+                                border-radius: 10px;
+                            }
+                    
+                            .image-box2{
+                                min-height: 300px;
+                                width: 100%;
+                                padding: 15px;
+                                background-color: white;
+                                border-radius: 10px;
+                            }
+                    
+                            .image-box3{
+                                min-height: 300px;
+                                width: 100%;
+                                padding: 15px;
+                                background-color: white;
+                                border-radius: 10px;
+                            }
+                
+                            .div5 img{
+                                width: 100px;
+                                height: 100px;
+                                margin-left: 20%;
+                                margin-right: 25%;
+                                border-radius: 100px;
+                            }
+                    
+                            .div5 h3{
+                                font-family: Questrial, sans-serif;
+                                font-size: 24px;
+                                font-weight: 600;
+                                line-height: 34px;
+                                color: #1c0d5a;
+                                text-align: center;
+                                padding: 10px;
+                            }
+                    
+                            .div5 p{
+                                font-family: Quicksand, sans-serif;
+                                font-size: 17px;
+                                font-weight: 500;
+                                line-height: 31px;
+                                color: #636363;
+                                text-align: center;
+                                padding: 10px;
+                            }
+                            /* Tablet styling for the sixth div */
+                            .i{
+                                color: #F0AD4E;
+                                letter-spacing: 5px;
+                                margin-left: 20%;
+                            }
+                    }
+                    /* Responsiveness for Mobile device */
+                    @media screen and (max-width: 425px) {
+
+                        /* Mobile first div responsiveness */
+                        .article-right{
+                            width: 80%;
+                            min-height: 800px;
+                            float: right;
+                            box-sizing: border-box;
+                        }
+    
+                        .sub-div1{
+                            display: grid;
+                            grid-template-columns: auto;
+                            gap: 20px   ;
+                            min-height: 50%;
+                            width: 80%;
+                        }
+                        
+                        .authur1{
+                            min-height: 50%;
+                            width: 40%;
+                            padding: 10px;
+                        }
+    
+                        .authur1 h2{
+                            font-size: 40px;
+                            font-weight: 600;
+                            line-height: 40px;
+                            margin-top: 100px;
+                        }
+                        
+                        .authur1 p{
+                            color: #636363;
+                            font-family: Quicksand, sans-serif;
+                            font-size: 20px;
+                            font-weight: 500px;
+                            line-height: 31px;
+                        }
+    
+                        .authur2{
+                            min-height: 50%;
+                            width: 40%;
+                            position: relative;
+                        }
+    
+                       .authur2 img{
+                        width: 300px;
+                        height: 500px;
+                       }
+                       
+                       .CEO{
+                        width: 140%;
+                        height: 130px;
+                        position: absolute;
+                        top: 35%;
+                        left: 100%;
+                    }
+                       .CEO h3{
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 20px;
+                        padding-left: 10px;
+                    }
+                    
+                    .CEO p{
+                        font-family: Quicksand, sans-serif;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        color: #636363;
+                        padding-left: 10px;
+                        padding-bottom: 10px;
+                    }
+                    
+                    .beginners{
+                        width: 140%;
+                        height: 130px;
+                        position: absolute;
+                        top: 75%;
+                        right: 0;
+                    }
+                    
+                    .beginners h3{
+                        text-align: right;
+                        font-family: Questrial, sans-serif;
+                        font-size: 30px;
+                        font-weight: 600;
+                        line-height: 42px;
+                        color: #1c0d5a;
+                        padding-right: 8px;
+                    }
+                    
+                    .beginners p{
+                        text-align: right;
+                        font-family: Quicksand, sans-serif;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 31px;
+                        color: #636363;
+                        padding-right: 8px;
+                    }
+    
+                       .authur1 button{
+                        width: 200px;
+                        height: 70px;
+                    }
+
+                     /* Mobile second div Responsiveness*/
+
+                .div2{
+                    width: 100%;
+                    min-height: 300px;
+                    margin-top: 100px;
+                    padding: 10px;
+                    }
+                    
+                    .sub-div2{
+                    display: grid;
+                    grid-template-columns: auto;
+                    gap: 20px;
+                    min-height: 50%;
+                    width: 100%;
+                    }
+
+                    .sub-div2 img{
+                        width: 300px;
+                        height: 400px;
+                    }
+                    
+                    .box1{
+                    min-height: 50%;
+                    width: 50%;
+                    position: relative;
+                    }
+                    
+                    .box1 button{
+                            width: 100%;
+                            height: 70px;
+                            border: solid 0px;
+                            border-radius: 8px;
+                            color:#0e2eff ;
+                            font-family: Quicksand, sans-serif;
+                            font-size: 18px;
+                            padding: 5px;
+                            background-color: rgb(220, 206, 206);
+                            margin-left: 40%;
+                            position: absolute;
+                            bottom: 0;
+                            top: 95%;
+                    }
+                    
+                    .box1 button:hover{
+                        background-color: #0e2eff;
+                        color: white;
+                    }
+                    
+                    .box2{
+                        min-height: 50%;
+                        width: 100%;
+                        padding-top: 60px;
+                        }
+                    
+                        .box2 h3{
+                            font-family: Questrial, sans-serif;
+                            font-size: 30px;
+                            font-weight: 600;
+                            line-height: 30px;
+                            color: #1c0d5a;
+                        }
+                    
+                        .box2 p{
+                            font-family: Quicksand, sans-serif;
+                            font-size: 17px;
+                            font-weight: 500;
+                            line-height: 31px;
+                            color: #636363;
+                        }
+
+                        /* Mobile third div Responsiveness*/
+
+                        .div3{
+                            width: 100%;
+                            min-height: 600px;
+                            margin-top: 100px;
+                            margin-bottom: 100px;
+                            padding: 10px 10px;
+                            background-color: color-mix(
+                                in srgb,
+                                #f0f7fb,
+                                #FCFDFE
+                            );
+                        }
+                    
+                        .sub-div3{
+                            display: grid;
+                            grid-template-columns: auto;
+                            gap: 20px;  
+                            width: 100%;
+                            padding-top: 55px;
+                            }
+                    
+                        
+                    
+                        .gallery{
+                            min-height: 300px;
+                            width: 100%;
+                            display: grid;
+                            grid-template-columns: auto;
+                            gap: 8px;
+                        }
+
+                        .div3 img{
+                            height: 200px;
+                            width: 200px;
+                        }
+
+                        /* Mobile fouth div Responsivness*/
+
+
+                        .sub-div4{
+                            display: grid;
+                            grid-template-columns: auto; 
+                            width: 100%;
+                            border: solid 1px #D6D7E0;
+                            border-radius: 10px 10px 0px 0px;
+                            }
+                    
+                            .icon-box1{
+                                min-height: 300px;
+                                width: 100%;
+                                padding: 15px;
+                                border-right: solid 1px #D6D7E0;
+                            }
+                    
+                            .icon-box2{
+                                min-height: 300px;
+                                width: 100%;
+                                padding: 15px;
+                                border: solid 1px #D6D7E0;
+                            }
+                    
+                            .icon-box3{
+                                min-height: 300px;
+                                width: 100%;
+                                padding: 15px;
+                            }
+                    
+                            .div4 h3{
+                                font-family: Questrial, sans-serif;
+                                font-size: 24px;
+                                font-weight: 600;
+                                line-height: 34px;
+                                color: #1c0d5a;
+                            }
+                    
+                            .div4 p{
+                                font-family: Quicksand, sans-serif;
+                                font-size: 20px;
+                                font-weight: 500;
+                                line-height: 31px;
+                                color: #636363;
+                            }
+                    
+                            /* Combination */
+                    
+                            .sub-sub-div4{
+                                display: grid;
+                                grid-template-columns: auto; 
+                                width: 100%;
+                                border: solid 1px #D6D7E0;
+                                border-radius: 0px 0px 10px 10px;
+                                }
+                    
+                            .div4 button{
+                                width: 70%;
+                                height: 50px;
+                                border: solid 0px;
+                                border-radius: 8px;
+                                color:#0e2eff ;
+                                font-family: Quicksand, sans-serif;
+                                font-size: 18px;
+                                font-weight: 500;
+                                padding: 5px;
+                                background-color: rgb(186, 199, 207);
+                                margin-left: 15%;
+                            }
+                    
+                    
+                        /* button with light orange hover */
+                         .div4 button:hover{
+                            background-color: #0e2eff;
+                            color: white;
+                        }
+
+                        /* Mobile fifth div Responsivness*/
+
+                        .div5{
+                            width: 100%;
+                            min-height: 650px;
+                            margin-top: 50px;
+                            margin-bottom: 100px;
+                            padding: 20px 20px;
+                            background-color: #F6FAFD;
+                        }
+                    
+                        .sub-div5{
+                            display: grid;
+                            grid-template-columns: auto; 
+                            gap: 20px;
+                            width: 100%;
+                            padding-bottom: 20px;
+                            }
+                    
+                            .image-box1{
+                                min-height: 300px;
+                                width: 100%;
+                                padding: 15px;
+                                background-color: white;
+                                border-radius: 10px;
+                            }
+                    
+                            .image-box2{
+                                min-height: 300px;
+                                width: 100%;
+                                padding: 15px;
+                                background-color: white;
+                                border-radius: 10px;
+                            }
+                    
+                            .image-box3{
+                                min-height: 300px;
+                                width: 100%;
+                                padding: 15px;
+                                background-color: white;
+                                border-radius: 10px;
+                            }
+                
+                            .div5 img{
+                                width: 100px;
+                                height: 100px;
+                                margin-left: 20%;
+                                margin-right: 25%;
+                                border-radius: 100px;
+                            }
+                    
+                            .div5 h3{
+                                font-family: Questrial, sans-serif;
+                                font-size: 24px;
+                                font-weight: 600;
+                                line-height: 34px;
+                                color: #1c0d5a;
+                                text-align: center;
+                                padding: 10px;
+                            }
+                    
+                            .div5 p{
+                                font-family: Quicksand, sans-serif;
+                                font-size: 17px;
+                                font-weight: 500;
+                                line-height: 31px;
+                                color: #636363;
+                                text-align: center;
+                                padding: 10px;
+                            }
+                            /* Mobile sixth div Responsivness*/
+                            .i{
+                                color: #F0AD4E;
+                                letter-spacing: 5px;
+                                margin-left: 20%;
+                            }
+
+                            .sub-div6{
+                                display: grid;
+                                grid-template-columns: auto; 
+                                gap: 30px;
+                                width: 100%;
+                                padding-bottom: 20px;
+                                }
+
+                                /*Mobile seventh div  Responsivness*/
+
+                                .div7 h3{
+                                    font-family: Questrial, sans-serif;
+                                    font-size: 30px;
+                                    font-weight: 600;
+                                    line-height: 30px;
+                                    color: #1c0d5a;
+                                    text-align: center;
+                                    padding: 10px;
+                                }
+                        
+                                .div7 p{
+                                    font-family: Quicksand, sans-serif;
+                                    font-size: 17px;
+                                    font-weight: 500;
+                                    line-height: 31px;
+                                    color: #636363;
+                                    text-align: center;
+                                    padding: 10px;
+                                }
+            
+                                .div7 button{
+                                    width: 50%;
+                                    height: 50px;
+                                    border: solid 0px;
+                                    border-radius: 8px;
+                                    background-color:#0e2eff ;
+                                    font-family: Quicksand, sans-serif;
+                                    font-size: 18px;
+                                    padding: 5px;
+                                    color: white;
+                                    margin-left: 25%;
+                                }
+                    }
